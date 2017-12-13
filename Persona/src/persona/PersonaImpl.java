@@ -2,12 +2,12 @@ package persona;
 
 public class PersonaImpl implements Persona {
 	
-	private String dni;
-	private String nombre;
-	private String apellidos;
-	private Integer edad;
-	private Double altura;
-	private Character sexo;
+	protected static String dni;
+	protected static String nombre;
+	protected static String apellidos;
+	protected static Integer edad;
+	protected static Double altura;
+	protected static Character sexo;
 	
 	public PersonaImpl(String dni, 
 					   String nombre, 

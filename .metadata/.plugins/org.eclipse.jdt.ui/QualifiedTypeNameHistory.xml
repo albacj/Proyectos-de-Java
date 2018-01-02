@@ -2,4 +2,14 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="puntoPlano.PuntoImpl"/>
 <fullyQualifiedTypeName name="puntoPlano.Punto"/>
+<fullyQualifiedTypeName name="test.TestEscritor"/>
+<fullyQualifiedTypeName name="librerias.tipos.LectorElectronico"/>
+<fullyQualifiedTypeName name="librerias.tipos.LectorElectronicoImpl"/>
+<fullyQualifiedTypeName name="librerias.tipos.Escritor"/>
+<fullyQualifiedTypeName name="librerias.tipos.EscritorImpl"/>
+<fullyQualifiedTypeName name="utilidades.Nacionalidades"/>
+<fullyQualifiedTypeName name="librerias.tipos.LibroImpl"/>
+<fullyQualifiedTypeName name="librerias.tipos.T"/>
+<fullyQualifiedTypeName name="librerias.tipos.Libro"/>
+<fullyQualifiedTypeName name="utilidades.UtilidadesLibros"/>
 </qualifiedTypeNameHistroy>

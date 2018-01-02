@@ -1,5 +1,7 @@
 package test;
 
+import librerias.tipos.*;
+import utilidades.Nacionalidades;
 
 public class TestLectorElectronico extends Test{
 
@@ -8,15 +10,16 @@ public class TestLectorElectronico extends Test{
 	 */
 	public static void main(String[] args) {
 		// TODO: Descomente estas líneas
-		// Libro l1 = new LibroImpl("Miguel", "de Cervantes y Saavedra",
-		// Nacionalidades.SPANISH, "ETSII", "Don Quijote de la Mancha",
-		// 1995);
-		// l1.setCopiasVendidas(14);
-		// l1.setPrecio(12.5);
-		//
-		// LectorElectronico<Libro> lec = new
-		// LectorElectronicoImpl<Libro>("LE1", "Visor", l1);
-		// mostrar(lec);
+		
+		Escritor e1 = new EscritorImpl("Miguel", "de Cervantes y Saavedra", Nacionalidades.SPANISH);
+		 
+		Libro l1 = new LibroImpl("Don Quijote de La Mancha", e1, 1995, "ETSII");
+		 
+		l1.setCopiasVendidas(14);
+		l1.setPrecio(12.5);
+		
+		LectorElectronico lec = new LectorElectronicoImpl("LE1", "Visor", l1);
+		mostrar(lec);
 	}
 
 }

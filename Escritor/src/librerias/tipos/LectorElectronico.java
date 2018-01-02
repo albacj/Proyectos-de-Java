@@ -1,6 +1,6 @@
 package librerias.tipos;
 
-public interface LectorElectronico {
+public interface LectorElectronico<T> {
 	
 	String getId();
 	String getNombre();

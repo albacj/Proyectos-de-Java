@@ -1,13 +1,14 @@
 package librerias.tipos;
 
-public class LectorElectronicoImpl implements LectorElectronico {
+public class LectorElectronicoImpl<T> implements LectorElectronico<T> {
 	
 	private String id;
 	private String nombre;
 	private T documento;
 
-	public LectorElectronicoImpl(String nombre, String docuemnto) {
+	public LectorElectronicoImpl(String id, String nombre, T documento) {
 		// TODO Auto-generated constructor stub
+		this.id = id;
 		this.nombre = nombre;
 		this.documento = documento;
 	}

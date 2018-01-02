@@ -6,11 +6,11 @@ public interface Libro {
 	Escritor getAutor();
 	String getEditorial();
 	int getPublicacion();
-	float getPrecio();
+	double getPrecio();
 	int getCopiasVendidas();
 	double getRecaudacion();
 	
-	void setPrecio(float precio);
+	void setPrecio(double precio);
 	void setCopiasVendidas(int copias);
 
 }

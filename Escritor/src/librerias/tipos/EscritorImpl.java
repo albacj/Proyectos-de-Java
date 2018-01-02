@@ -1,6 +1,6 @@
 package librerias.tipos;
 
-public class EscritorImpl {
+public class EscritorImpl implements Escritor{
 	
 	// Atributos privados
 	private String nombre;

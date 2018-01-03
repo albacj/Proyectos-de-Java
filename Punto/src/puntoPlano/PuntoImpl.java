@@ -1,5 +1,7 @@
 package puntoPlano;
 
+import java.lang.IllegalArgumentException;
+
 public class PuntoImpl implements Punto {
 	
 	private double x;
@@ -69,6 +71,15 @@ public class PuntoImpl implements Punto {
 		}
 		
 		return cmp;
+	}
+	
+	// Excepción
+	public void coordenadasNoNull(Punto p) {
+		
+		if((Double) p.getX() == null || (Double) p.getY() == null) {
+			throw new IllegalArgumentException("Las coordenadas no deben ser nulas");
+		}
+		
 	}
 
 }

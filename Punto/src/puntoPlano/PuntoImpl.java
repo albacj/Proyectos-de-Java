@@ -81,5 +81,20 @@ public class PuntoImpl implements Punto {
 		}
 		
 	}
+	
+	// Copiable
+	public Punto clone() {
+		
+		Punto copia = null;
+		
+		try {
+			copia = (Punto) super.clone();
+		}catch(CloneNotSupportedException e) {
+			e.printStackTrace();
+		}
+		
+		return copia;
+		
+	}
 
 }

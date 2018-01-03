@@ -36,10 +36,39 @@ public class PuntoImpl implements Punto {
 
 	}
 	
+	// Representación
 	public String toString(){ 
 		
 		String s="("+getX()+","+ getY()+")"; return s; 
 		
+	}
+	
+	// Igualdad
+	public boolean equals(Object o) {
+		
+		boolean res = false;
+		
+		if(o instanceof Punto) {
+			Punto p = (Punto) o; // Casteo el objeto para que sea de tipo Punto
+			res = getX() == p.getX() && getY() == p.getY();
+		}
+		
+		return res;
+		
+	}
+
+	// Orden
+	@Override
+	public int compareTo(Punto p) {
+		// TODO Auto-generated method stub
+		
+		int cmp = Double.compare(getX(), p.getX());
+		
+		if(cmp == 0) {
+			cmp = Double.compare(getY(), p.getY());
+		}
+		
+		return cmp;
 	}
 
 }

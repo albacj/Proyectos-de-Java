@@ -1,6 +1,6 @@
 package puntoPlano;
 
-public interface Punto {
+public interface Punto extends Comparable<Punto>{
 	
 	// Consultores
 	double getX();

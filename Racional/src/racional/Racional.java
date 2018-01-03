@@ -1,6 +1,6 @@
 package racional;
 
-public interface Racional {
+public interface Racional extends Comparable<Racional>{
 	
 	// Métodos consultores
 	int getNumerador();

@@ -95,4 +95,51 @@ public class RacionalImpl implements Racional {
 				+ (Integer.valueOf(getDenominador()).hashCode());
 	}
 
+	@Override
+	public void suma(Racional r) {
+		// TODO Auto-generated method stub
+		int den = getDenominador() * r.getDenominador();
+		int num1 = den / getNumerador();
+		int num2 = den / r.getNumerador();
+		int rac = (num1 + num2) / den;
+		
+	}
+
+	@Override
+	public void resta(Racional r) {
+		// TODO Auto-generated method stub
+		int den = getDenominador() * r.getDenominador();
+		int num1 = den / getNumerador();
+		int num2 = den / r.getNumerador();
+		int rac = (num1 - num2) / den;
+		
+	}
+
+	@Override
+	public void multiplica(Racional r) {
+		// TODO Auto-generated method stub
+		int num = getNumerador() * r.getNumerador();
+		int den = getDenominador() * r.getDenominador();
+		int rac = num / den;
+		
+	}
+
+	@Override
+	public void divide(Racional r) {
+		// TODO Auto-generated method stub
+		int num = getNumerador() * r.getDenominador();
+		int den = getDenominador() * getNumerador();
+		int rac = num / den;
+		
+	}
+
+	@Override
+	public void invierte(Racional r) {
+		// TODO Auto-generated method stub
+		int aux = r.getNumerador();
+		r.setNumerador(r.getDenominador());
+		r.setDenominador(aux);
+		
+	}
+
 }

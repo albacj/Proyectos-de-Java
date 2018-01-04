@@ -17,6 +17,7 @@ public class Enteros {
 		
 	}
 	
+	// Devuelve la suma de los elementos
 	public static Integer sumaElementos(Integer[] v) {
 		
 		Integer res = 0;
@@ -26,6 +27,13 @@ public class Enteros {
 		}
 		
 		return res;
+		
+	}
+	
+	// Devuelve la media de los elementos
+	public static Double media(Integer[] v) {
+		
+		return (double) (Enteros.sumaElementos(v) / v.length);
 		
 	}
 	

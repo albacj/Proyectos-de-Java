@@ -15,7 +15,12 @@ public class TestEnteros extends Test{
 		
 		Integer[] vSuma = {1,2,3,4};
 		Integer suma = Enteros.sumaElementos(vSuma);
-		mostrar("La suma de los elementos de v es " + suma);
+		mostrar("La suma de los elementos de vSuma es " + suma);
+		
+		mostrar("\n");
+		
+		Double media = Enteros.media(vSuma);
+		mostrar("La media de los elementos de vSuma es " + media);
 
 	}
 

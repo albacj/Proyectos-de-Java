@@ -17,4 +17,16 @@ public class Enteros {
 		
 	}
 	
+	public static Integer sumaElementos(Integer[] v) {
+		
+		Integer res = 0;
+		
+		for(int i = 0; i < v.length; i++) {
+			res = res + v[i];
+		}
+		
+		return res;
+		
+	}
+	
 }

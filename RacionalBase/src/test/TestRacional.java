@@ -9,8 +9,15 @@ public class TestRacional extends Test{
 		
 		//Racional r1 = new RacionalImpl(564, 0);
 		
-		Racional r = new RacionalImpl(4,87);
-		r.setDenominador(0);
+		try {
+			Racional r = new RacionalImpl(4,87);
+			r.setDenominador(0);
+			
+		}catch(DenominadorCeroException e) {
+			e.printStackTrace();
+			System.out.println("Excepción capturada");
+			
+		}
 
 	}
 

@@ -10,6 +10,12 @@ public class TestEnteros extends Test{
 		
 		Vector<Integer> v = Enteros.iniVector(7);
 		mostrar("El contenido de v es " +v);
+		
+		mostrar("\n");
+		
+		Integer[] vSuma = {1,2,3,4};
+		Integer suma = Enteros.sumaElementos(vSuma);
+		mostrar("La suma de los elementos de v es " + suma);
 
 	}
 

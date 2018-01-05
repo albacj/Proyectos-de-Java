@@ -40,4 +40,17 @@ public class Enteros {
 		return (int) Math.pow(a, b);
 	}
 	
+	// Devuelve el array invertido
+	public static Integer[] invertirArray(Integer[] v) {
+		
+		Integer[] res = {};
+		
+		for(int i = 0; i < v.length; i++) {
+			res[i] = v[v.length - i];
+		}
+		
+		return res;
+		
+	}
+	
 }

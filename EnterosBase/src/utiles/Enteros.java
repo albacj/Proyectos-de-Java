@@ -32,9 +32,12 @@ public class Enteros {
 	
 	// Devuelve la media de los elementos
 	public static Double media(Integer[] v) {
-		
 		return (double) (Enteros.sumaElementos(v) / v.length);
-		
+	}
+	
+	// La función matemática potencia
+	public static Integer potencia(Integer a, Integer b) {
+		return (int) Math.pow(a, b);
 	}
 	
 }

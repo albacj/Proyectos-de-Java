@@ -84,4 +84,21 @@ public class Enteros {
 		
 	}
 	
+	public static Integer mcd(Integer a, Integer b) {
+		
+		Integer[] r = new Integer[a*b];
+		r[0] = a;
+		r[1] = b;
+		
+		int i = 1;
+		
+		while(r[i] != 0) {
+			r[i+1] = r[i-1] % r[i];
+			i++;
+		}
+		
+		return r[i-1];
+		
+	}
+	
 }

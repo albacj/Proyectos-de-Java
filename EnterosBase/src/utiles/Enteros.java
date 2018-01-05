@@ -84,6 +84,7 @@ public class Enteros {
 		
 	}
 	
+	// Devuelve el mcd de a y b basado en el algoritmo de Euclides
 	public static Integer mcd(Integer a, Integer b) {
 		
 		Integer[] r = new Integer[a*b];
@@ -99,6 +100,11 @@ public class Enteros {
 		
 		return r[i-1];
 		
+	}
+	
+	// Devuelve el mcm de a y b
+	public static Integer mcm(Integer a, Integer b) {
+		return (a*b) / Enteros.mcd(a, b);
 	}
 	
 }

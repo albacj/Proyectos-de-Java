@@ -53,4 +53,17 @@ public class Enteros {
 		
 	}
 	
+	// Devuelve el producto entre dos números comprendidos
+	public static Integer producto(Integer a, Integer b) {
+		
+		Integer res = 1;
+		
+		for(int i = a; i <= b; i++) {
+			res = res * i;
+		}
+		
+		return res;
+		
+	}
+	
 }

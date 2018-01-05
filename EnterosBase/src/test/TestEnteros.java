@@ -31,6 +31,11 @@ public class TestEnteros extends Test{
 		
 		Integer[] invertido = Enteros.invertirArray(vSuma);
 		mostrar("Los elementos de vSuma al revés son " +invertido);
+		
+		mostrar("\n");
+		
+		Integer producto = Enteros.producto(3, 7);
+		mostrar("El resultado de 3*4*5*6*7 es igual a " +producto);
 
 	}
 

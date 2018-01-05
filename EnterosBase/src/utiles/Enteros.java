@@ -43,10 +43,10 @@ public class Enteros {
 	// Devuelve el array invertido
 	public static Integer[] invertirArray(Integer[] v) {
 		
-		Integer[] res = {};
+		Integer[] res = new Integer[v.length];
 		
 		for(int i = 0; i < v.length; i++) {
-			res[i] = v[v.length - i];
+			res[v.length - i - 1] = v[i];
 		}
 		
 		return res;

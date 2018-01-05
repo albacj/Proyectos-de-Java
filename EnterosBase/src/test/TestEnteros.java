@@ -23,8 +23,14 @@ public class TestEnteros extends Test{
 		mostrar("La media de los elementos de vSuma es " + media);
 		
 		mostrar("\n");
+		
 		Integer res = Enteros.potencia(4, 6);
 		mostrar("4 ^ 6 es igual a " +res);
+		
+		mostrar("\n");
+		
+		Integer[] invertido = Enteros.invertirArray(vSuma);
+		mostrar("Los elementos de vSuma al revés son " +invertido);
 
 	}
 

@@ -21,6 +21,10 @@ public class TestEnteros extends Test{
 		
 		Double media = Enteros.media(vSuma);
 		mostrar("La media de los elementos de vSuma es " + media);
+		
+		mostrar("\n");
+		Integer res = Enteros.potencia(4, 6);
+		mostrar("4 ^ 6 es igual a " +res);
 
 	}
 

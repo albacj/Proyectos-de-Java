@@ -71,4 +71,17 @@ public class Enteros {
 		return Enteros.producto(1, n);
 	}
 	
+	// Devuelve un vector con los factoriales de los elementos del vector de entrada
+	public static Vector<Integer> factoriales(Integer[] v){
+		
+		Vector<Integer> res = new Vector<Integer>();
+		
+		for(int i = 0; i < v.length; i++) {
+			res.add(Enteros.factorial(v[i]));
+		}
+		
+		return res;
+		
+	}
+	
 }

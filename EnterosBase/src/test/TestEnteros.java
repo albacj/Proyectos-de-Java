@@ -41,6 +41,11 @@ public class TestEnteros extends Test{
 		
 		Integer fac = Enteros.factorial(4);
 		mostrar("El factorial de 4 es " +fac);
+		
+		mostrar("\n");
+		
+		Vector<Integer> elemFac = Enteros.factoriales(vSuma);
+		mostrar("Los distintos factoriales de vSuma son " +elemFac);
 
 	}
 

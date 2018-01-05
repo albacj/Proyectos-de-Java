@@ -66,4 +66,9 @@ public class Enteros {
 		
 	}
 	
+	// Función factorial
+	public static Integer factorial(Integer n) {
+		return Enteros.producto(1, n);
+	}
+	
 }

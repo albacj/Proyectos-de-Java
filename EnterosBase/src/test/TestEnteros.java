@@ -36,6 +36,11 @@ public class TestEnteros extends Test{
 		
 		Integer producto = Enteros.producto(3, 7);
 		mostrar("El resultado de 3*4*5*6*7 es igual a " +producto);
+		
+		mostrar("\n");
+		
+		Integer fac = Enteros.factorial(4);
+		mostrar("El factorial de 4 es " +fac);
 
 	}
 

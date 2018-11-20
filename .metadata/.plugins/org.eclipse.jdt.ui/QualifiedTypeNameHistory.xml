@@ -15,4 +15,5 @@
 <fullyQualifiedTypeName name="racional.Racional"/>
 <fullyQualifiedTypeName name="racional.RacionalImpl"/>
 <fullyQualifiedTypeName name="potenciaEntera.PotenciaEntera"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

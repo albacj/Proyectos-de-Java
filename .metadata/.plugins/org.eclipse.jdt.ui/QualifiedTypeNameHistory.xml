@@ -16,4 +16,7 @@
 <fullyQualifiedTypeName name="racional.RacionalImpl"/>
 <fullyQualifiedTypeName name="potenciaEntera.PotenciaEntera"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="utiles.Copiable"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

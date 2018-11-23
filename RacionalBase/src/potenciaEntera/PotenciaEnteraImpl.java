@@ -8,7 +8,7 @@ public class PotenciaEnteraImpl implements PotenciaEntera {
 	// Constructores
 	
 	public PotenciaEnteraImpl(int a, int b) {
-		// TODO Auto-generated constructor stub
+		// Auto-generated constructor stub
 		
 		if(a == 0 || b == 0) {
 			throw new baseExponenteCeroException("La base y el exponente no pueden ser cero simultáneamente");
@@ -19,13 +19,13 @@ public class PotenciaEnteraImpl implements PotenciaEntera {
 	}
 	
 	public PotenciaEnteraImpl(int a) {
-		// TODO Auto-generated constructor stub
+		// Auto-generated constructor stub
 		this.a = a;
 		b = 1;
 	}
 	
 	public PotenciaEnteraImpl() {
-		// TODO Auto-generated constructor stub
+		// Auto-generated constructor stub
 		a = 1;
 		b = 1;
 	}
@@ -34,32 +34,32 @@ public class PotenciaEnteraImpl implements PotenciaEntera {
 
 	@Override
 	public int getBase() {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return a;
 	}
 
 	@Override
 	public int getExponente() {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return b;
 	}
 
 	@Override
 	public int getValor() {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return (int) Math.pow(a, b);
 	}
 
 	@Override
 	public void setBase(int a) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		this.a = a;
 
 	}
 
 	@Override
 	public void setExponente(int b) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		this.b = b;
 
 	}

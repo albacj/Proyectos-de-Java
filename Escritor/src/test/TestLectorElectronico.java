@@ -9,7 +9,7 @@ public class TestLectorElectronico extends Test{
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO: Descomente estas líneas
+
 		
 		Escritor e1 = new EscritorImpl("Miguel", "de Cervantes y Saavedra", Nacionalidades.SPANISH);
 		 

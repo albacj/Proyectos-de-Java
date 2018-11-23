@@ -7,7 +7,7 @@ public class LectorElectronicoImpl<T> implements LectorElectronico<T> {
 	private T documento;
 
 	public LectorElectronicoImpl(String id, String nombre, T documento) {
-		// TODO Auto-generated constructor stub
+		// Auto-generated constructor stub
 		this.id = id;
 		this.nombre = nombre;
 		this.documento = documento;
@@ -15,32 +15,32 @@ public class LectorElectronicoImpl<T> implements LectorElectronico<T> {
 
 	@Override
 	public String getId() {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return id;
 	}
 
 	@Override
 	public String getNombre() {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return nombre;
 	}
 
 	@Override
 	public T getDocumento() {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return documento;
 	}
 
 	@Override
 	public void setNombre(String nombre) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		this.nombre = nombre;
 
 	}
 
 	@Override
 	public void setDocumento(T documento) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		this.documento = documento;
 
 	}

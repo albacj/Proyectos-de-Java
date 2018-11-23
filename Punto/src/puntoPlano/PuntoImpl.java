@@ -14,26 +14,26 @@ public class PuntoImpl implements Punto {
 
 	@Override
 	public double getX() {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return x;
 	}
 
 	@Override
 	public double getY() {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return y;
 	}
 
 	@Override
 	public void setX(double x) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		this.x = x;
 
 	}
 
 	@Override
 	public void setY(double y) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		this.y = y;
 
 	}
@@ -62,7 +62,7 @@ public class PuntoImpl implements Punto {
 	// Orden
 	@Override
 	public int compareTo(Punto p) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		
 		int cmp = Double.compare(getX(), p.getX());
 		

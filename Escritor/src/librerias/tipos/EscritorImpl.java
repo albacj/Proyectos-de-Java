@@ -9,7 +9,7 @@ public class EscritorImpl implements Escritor{
 
 	// Constructor
 	public EscritorImpl(String nom, String ape, String nac) {
-		// TODO Auto-generated constructor stub
+		// Auto-generated constructor stub
 		nombre = nom;
 		apellidos = ape;
 		nacionalidad = nac;

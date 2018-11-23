@@ -13,33 +13,33 @@ public class RacionalImpl implements Racional {
 
 	@Override
 	public int getNumerador() {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return n;
 	}
 
 	@Override
 	public int getDenominador() {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return d;
 	}
 
 	@Override
 	public void setNumerador(int num) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		n = num;
 
 	}
 
 	@Override
 	public void setDenominador(int den) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		d = den;
 
 	}
 
 	@Override
 	public double getValor(int n, int d) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		return n/d;
 	}
 	
@@ -78,7 +78,7 @@ public class RacionalImpl implements Racional {
 	// Orden
 	@Override
 	public int compareTo(Racional r) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		
 		int cmp = Double.compare(getNumerador(), r.getNumerador());
 		
@@ -97,7 +97,7 @@ public class RacionalImpl implements Racional {
 
 	@Override
 	public void suma(Racional r) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		int den = getDenominador() * r.getDenominador();
 		int num1 = den / getNumerador();
 		int num2 = den / r.getNumerador();
@@ -107,7 +107,7 @@ public class RacionalImpl implements Racional {
 
 	@Override
 	public void resta(Racional r) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		int den = getDenominador() * r.getDenominador();
 		int num1 = den / getNumerador();
 		int num2 = den / r.getNumerador();
@@ -117,7 +117,7 @@ public class RacionalImpl implements Racional {
 
 	@Override
 	public void multiplica(Racional r) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		int num = getNumerador() * r.getNumerador();
 		int den = getDenominador() * r.getDenominador();
 		int rac = num / den;
@@ -126,7 +126,7 @@ public class RacionalImpl implements Racional {
 
 	@Override
 	public void divide(Racional r) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		int num = getNumerador() * r.getDenominador();
 		int den = getDenominador() * getNumerador();
 		int rac = num / den;
@@ -135,7 +135,7 @@ public class RacionalImpl implements Racional {
 
 	@Override
 	public void invierte(Racional r) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		int aux = r.getNumerador();
 		r.setNumerador(r.getDenominador());
 		r.setDenominador(aux);

@@ -6,7 +6,7 @@ import utilidades.Nacionalidades;
 public class TestLibro extends Test{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		
 		Escritor e1 = new EscritorImpl("Miguel", "de Cervantes y Saavedra", Nacionalidades.SPANISH);
 		Libro l1 = new LibroImpl("Don Quijote de La Mancha", e1, 2010, "ETSII");

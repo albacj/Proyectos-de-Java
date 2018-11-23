@@ -23,4 +23,8 @@
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="viajes.Crucero"/>
+<fullyQualifiedTypeName name="viajes.CruceroImpl"/>
+<fullyQualifiedTypeName name="punto.Punto"/>
+<fullyQualifiedTypeName name="interfaces.Copiable"/>
 </qualifiedTypeNameHistroy>

@@ -94,28 +94,87 @@ public class Vuelos {
 	}
 
 	public static Integer completosDestino(List<Vuelo> vuelos, String dst) {
-		//TODO apartado 2.f
-		return null;
+		//apartado 2.f
+		Integer cuantos = 0;
+		List<Vuelo> completos = new ArrayList<>();
+		
+		for(Vuelo v : vuelos) {
+			
+			if(v.getNumPasajeros() == v.getNumPlazas()) {
+				completos.add(v);
+			}
+			
+		}
+		
+		List<Vuelo> completosDestino = new ArrayList<>();
+		
+		for(Vuelo v : completos) {
+			
+			if(v.getDestino() == dst) {
+				completosDestino.add(v);
+			}
+			
+		}
+		
+		cuantos = completosDestino.size();
+		return cuantos;
 	}
 
 	public static Double recaudacionDestino(List<Vuelo> vuelos, String dst) {
-		//TODO apartado 2.g
-		return null;
+		//apartado 2.g
+		Double recaudacionDestino = 0.0;
+		
+		for(Vuelo v : vuelos) {
+			
+			if(v.getDestino() == dst) {
+				recaudacionDestino = recaudacionDestino + (v.getPrecio() * v.getNumPasajeros());
+			}
+			
+		}
+		
+		return recaudacionDestino;
 	}
 
 	public static Boolean hayVueloPlazasLibres(List<Vuelo>vuelos, String nom) {
-		//TODO apartado 2.h
-		return null;
+		//apartado 2.h
+		Boolean hay = false;
+		
+		for(Vuelo v : vuelos) {
+			
+			if(v.getDestino() == nom && v.getNumPlazas() > v.getNumPasajeros()) {
+				hay = true;
+				break;
+			}
+			
+		}
+		
+		return hay;
 	}
 
 	private static Boolean hayPlazas(Vuelo v) {
-		//TODO apartado 2.h
-		return null;
+		//apartado 2.h
+		Boolean hay = false;
+		
+		if(v.getNumPlazas() > v.getNumPasajeros()) {
+			hay = true;
+		}
+		
+		return hay;
 	}
 
 	public static Boolean hayVuelo(List<Vuelo>vuelos, String nom) {
-		//TODO apartado 2.i
-		return null;
+		//apartado 2.i
+		boolean hay = false;
+		
+		for(Vuelo v : vuelos) {
+			
+			if(v.getDestino() == nom && v.getNumPlazas() > v.getNumPasajeros()) {
+				hay = true;
+			}
+			
+		}
+		
+		return hay;
 	}
 
 

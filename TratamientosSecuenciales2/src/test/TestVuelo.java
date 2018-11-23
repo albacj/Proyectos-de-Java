@@ -53,27 +53,27 @@ public class TestVuelo extends Test{
 		//======================================================================
 		
 		mostrar("\n¿Cuántos vuelos hay a Bilbao que estén completos?");
-		
+		mostrar(Vuelos.completosDestino(vuelos, "Bilbao"));
 		
 		
 		//======================================================================
 		
 		mostrar("\n¿Cuál es la recaudación de los vuelos a París?"); 
-
+		mostrar(Vuelos.recaudacionDestino(vuelos, "Paris"));
 
 		//======================================================================
 		mostrar("\n¿Hay algún vuelo a Londres?");
-//		if(...)
-//			mostrar("sí hay vuelo a Londres");
-//		else
-//			mostrar("no hay vuelo a Londres");
+		if(Vuelos.hayVueloPlazasLibres(vuelos, "Londres"))
+			mostrar("sí hay vuelo a Londres");
+		else
+			mostrar("no hay vuelo a Londres");
 		//======================================================================
 		
 		mostrar("\n¿Hay algún vuelo a Madrid con plazas libres?"); 
-//		if(...)
-//			mostrar("sí hay vuelo a Madrid con plazas libres");
-//		else
-//			mostrar("no hay vuelo a Madrid con plazas libres");
+		if(Vuelos.hayVuelo(vuelos, "Madrid"))
+			mostrar("sí hay vuelo a Madrid con plazas libres");
+		else
+			mostrar("no hay vuelo a Madrid con plazas libres");
 		
 		//======================================================================
 

@@ -13,7 +13,7 @@ public class Ejercicio4 extends Test {
 	public static Set<String> apartadoA(Set<String> ingles, 
 			Set<String> frances, Set<String> aleman) {
 		// Superaron inglés y otro:
-		// TODO
+
 		inglesYOtro = new HashSet<String>();
 		
 		for(String cIngles : ingles) {
@@ -28,7 +28,7 @@ public class Ejercicio4 extends Test {
 	public static Set<String> apartadoB(Set<String> ingles,
 			Set<String> frances, Set<String> aleman) {
 		// Superaron al menos dos idiomas. Suponemos calculado inglesYOtro
-		// TODO	
+
 		alMenosDos = new HashSet<String>();
 		
 		for(String cIngles : ingles) {
@@ -51,7 +51,7 @@ public class Ejercicio4 extends Test {
 	public static Set<String> apartadoC(Set<String> ingles,
 			Set<String> frances, Set<String> aleman) {
 		// Sólo dominan un idioma. Suponemos calculado alMenosDos
-		// TODO
+
 		soloUno = new HashSet<String>();
 		
 		for(String cIngles : ingles) {

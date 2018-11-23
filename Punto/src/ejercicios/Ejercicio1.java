@@ -14,7 +14,7 @@ public class Ejercicio1 extends Test {
 
 	public static void apartadoA() {
 		mostrar("Apartado a:");
-		// TODO
+
 		s = new HashSet<Punto>();
 		Punto p1 = new PuntoImpl(1.5, 3.5);
 		s.add(p1);
@@ -27,14 +27,14 @@ public class Ejercicio1 extends Test {
 
 	public static void apartadoB() {
 		mostrar("\nApartado b");
-		// TODO
+
 		Set<Punto> s1 = s;
 		mostrar("s1: " + s1);
 	}
 
 	public static void apartadoC() {
 		mostrar("\nApartado c");
-		// TODO
+
 		Set<Punto> s1 = s;
 		
 		for(Punto punto : s1) {
@@ -46,7 +46,7 @@ public class Ejercicio1 extends Test {
 
 	public static void apartadoD() {
 		mostrar("\nApartado d");
-		// TODO
+
 		Set<Punto> s1 = new HashSet<Punto>();
 		s1.addAll(s);
 		
@@ -60,7 +60,7 @@ public class Ejercicio1 extends Test {
 	public static void apartadoE() {
 		mostrar("\nApartado e");
 		mostrar("s antes de modificar s1: " + s);
-		// TODO
+
 		Set<Punto> s1 = new HashSet<Punto>();
 		s1.addAll(s);
 		

@@ -13,7 +13,7 @@ public class Ejercicio3 extends Test {
 
 	public static Set<String> apartadoA(Set<String> g1, Set<String> g2) {
 		// Repetidores:
-		// TODO
+
 		Set<String> repetidores = new HashSet<String>();
 		
 		for(String alumno : g1) {
@@ -27,7 +27,7 @@ public class Ejercicio3 extends Test {
 
 	public static List<String> apartadoB(Set<String> g1, Set<String> g2) {
 		// Todos:
-		// TODO
+
 		List<String> todos = new ArrayList<String>();
 		todos.addAll(g1);
 		
@@ -42,7 +42,7 @@ public class Ejercicio3 extends Test {
 
 	public static Set<String> apartadoC(Set<String> g1, Set<String> g2) {
 		// Nuevos:
-		// TODO
+
 		Set<String> nuevos = new HashSet<String>();
 		nuevos.addAll(g1);
 		

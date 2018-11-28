@@ -74,7 +74,28 @@ public class TestFutbol extends Test{
 		mostrar(j11);
 
 		//Equipo España Final 2010 --------------------------------------------------------------------------------------
+		
+		Equipo<JugadorFutbol> e1 = new EquipoImpl<JugadorFutbol>("", Vector<JugadorFutbol>); // FIXME
+		e1.anadeComponente(j1);
+		e1.anadeComponente(j2);
+		e1.anadeComponente(j3);
+		e1.anadeComponente(j4);
+		e1.anadeComponente(j5);
+		e1.anadeComponente(j6);
+		e1.anadeComponente(j7);
+		e1.anadeComponente(j8);
+		e1.anadeComponente(j9);
+		e1.anadeComponente(j10);
+		e1.anadeComponente(j11);
+		
+		mostrarTactica(e1.getComponentesDelEquipo(),"442","local");
 					
+	}
+	
+	public static void mostrarTactica(Vector<JugadorFutbol> e, String tactica, String loc){
+		System.out.println("mostrarTactica");
+		Ventana v = new Ventana(e, tactica, loc);
+		v.editarVentana();
 	}
 
 }

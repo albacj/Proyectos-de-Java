@@ -21,7 +21,7 @@ public class CancionImpl implements Cancion {
 	public CancionImpl(String nombre, String interprete, Integer min, Integer seg, Integer año, String genero) {
 		
 		// Ejercicio 2 - Excepción
-		if(min.equals(0) && seg.equals(0)) {
+		if(min < 0 && seg < 0) {
 			throw new CancionNoValidaException("La duración de una canción debe ser mayor de 0:00");
 		}
 		

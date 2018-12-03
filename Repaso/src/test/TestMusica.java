@@ -13,7 +13,7 @@ public class TestMusica extends Test {
 
 	public static void main(String[] args) {
 
-		// TODO Ejercicio 1 - Test
+		// Ejercicio 1 - Test
 		Cancion c1 = new CancionImpl("5 sentidos", "Dvicio, Taburete", 3, 31, 2018, "pop");
 		Cancion c2 = new CancionImpl("Viva la vida", "Coldplay", 4, 3, 2000, "pop");
 		
@@ -27,13 +27,13 @@ public class TestMusica extends Test {
 		
 		mostrar ("Ejercicio 1\n===========");
 		
-		// TODO Ejercicio 2 - Test
+		// Ejercicio 2 - Test
 		c1.setCalificacion(5);
 		mostrar(c1.getCalificacion());
 		
 		mostrar ("\nEjercicio 2\n===========");
 
-		// TODO Ejercicio 3 - Test
+		// Ejercicio 3 - Test
 		mostrar ("\nEjercicio 3\n===========");
 		ListaDeReproduccion playlist = inicializaListaDeReproduccion();
 		
@@ -41,26 +41,33 @@ public class TestMusica extends Test {
 		mostrar("La calificación media de la lista es: " + ((ListaDeReproduccionImpl) playlist).duracionLista());
 		mostrar("La calificación media de la lista es: " + ((ListaDeReproduccionImpl) playlist).calificacionLista());
 		
-		// TODO Ejercicio 4a) - Test
+		// Ejercicio 4a) - Test
 		mostrar ("\nEjercicio 4a)\n===========");
+		mostrar("La primera canción que hay de Shakira es: " + ((ListaDeReproduccionImpl) playlist).getCancion("Shakira"));
 		
-		// TODO Ejercicio 4b) - Test
+		// Ejercicio 4b) - Test
 		mostrar ("\nEjercicio 4b)\n===========");
+		mostrar("Las canciones que hay de género latino son: " + ((ListaDeReproduccionImpl) playlist).cancionesDeGenero("latino"));
 		
-		// TODO Ejercicio 4c) - Test
+		// Ejercicio 4c) - Test
 		mostrar ("\nEjercicio 4c)\n===========");
+		mostrar("Las canción de pop más escuchada es: " + ((ListaDeReproduccionImpl) playlist).masEscuchada("pop"));
 		
-		// TODO Ejercicio 4d) - Test
+		// Ejercicio 4d) - Test
 		mostrar ("\nEjercicio 4d)\n===========");
+		mostrar("¿Hay alguna canción con la palabra -love-: " + ((ListaDeReproduccionImpl) playlist).contienePalabra("love"));
 		
-		// TODO Ejercicio 4e) - Test
+		// Ejercicio 4e) - Test
 		mostrar ("\nEjercicio 4e)\n===========");
+		mostrar("La canción más antigua es: " + ((ListaDeReproduccionImpl) playlist).masAntugua());
 		
-		// TODO Ejercicio 4f) - Test
+		// Ejercicio 4f) - Test
 		mostrar ("\nEjercicio 4f)\n===========");
+		mostrar("Las canciones incrementadas en 1 en número de reproducciones son: " + ((ListaDeReproduccionImpl) playlist).cancionesParaReproducir());
 		
 		// TODO Ejercicio 4g) - Test
 		mostrar ("\nEjercicio 4g)\n===========");
+		mostrar("Lista de favoritos: " + ((ListaDeReproduccionImpl) playlist).favoritas(4)); // FIXME
 	}
 
 	public static ListaDeReproduccion inicializaListaDeReproduccion (){

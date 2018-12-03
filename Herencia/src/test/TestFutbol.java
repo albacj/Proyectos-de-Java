@@ -75,7 +75,7 @@ public class TestFutbol extends Test{
 
 		//Equipo España Final 2010 --------------------------------------------------------------------------------------
 		
-		Equipo<JugadorFutbol> e1 = new EquipoImpl<JugadorFutbol>("", Vector<JugadorFutbol>); // FIXME
+		Equipo<JugadorFutbol> e1 = new EquipoImpl<JugadorFutbol>(null, null); // FIXME
 		e1.anadeComponente(j1);
 		e1.anadeComponente(j2);
 		e1.anadeComponente(j3);

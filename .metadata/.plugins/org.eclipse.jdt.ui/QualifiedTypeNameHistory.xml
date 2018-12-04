@@ -31,5 +31,14 @@
 <fullyQualifiedTypeName name="hora.HoraImpl"/>
 <fullyQualifiedTypeName name="musica.ListaDeReproduccion"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="tipos.Vuelo"/>
+<fullyQualifiedTypeName name="comparators.ComparadorVueloPorFecha"/>
+<fullyQualifiedTypeName name="comparators.ComparadorVueloPorPrecio"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="tipos.Cancion"/>
+<fullyQualifiedTypeName name="comparators.ComparadorCancionPorGenero"/>
+<fullyQualifiedTypeName name="comparators.ComparadorCancionPorDuracion"/>
+<fullyQualifiedTypeName name="comparators.ComparadorCancionPorAño"/>
+<fullyQualifiedTypeName name="com.google.common.collect.Ordering"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>

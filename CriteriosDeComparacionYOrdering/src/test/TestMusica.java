@@ -14,18 +14,29 @@ public class TestMusica extends Test {
 		ListaDeReproduccion playlist = inicializaListaDeReproduccion();
 		List<Cancion> lista = playlist.getCanciones();
 		
-		// TODO Pr14. Ejercicio 4a
+		// Pr14. Ejercicio 4a
 		mostrar ("Inicializa lista de reproducción");
+		Collections.sort(lista);
+		mostrar(lista);
 		
 				
-		// TODO Pr14. Ejercicio 4b
+		// Pr14. Ejercicio 4b
 		mostrar("Lista de canciones según criterio adicional basado en la fecha");
+		Comparator<Cancion> cf = new ComparadorCancionPorAño();
+		Collections.sort(lista, cf);
+		mostrar(lista);
 		
 		
 		mostrar("Lista de canciones según criterio adicional basado en la genero");
+		Comparator<Cancion> cg = new ComparadorCancionPorGenero();
+		Collections.sort(lista, cg);
+		mostrar(lista);
 		
 		
 		mostrar("Lista de canciones según criterio adicional basado en la duracion");
+		Comparator<Cancion> cd = new ComparadorCancionPorDuracion();
+		Collections.sort(lista, cd);
+		mostrar(lista);
 		
 	}
 

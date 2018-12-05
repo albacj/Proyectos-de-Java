@@ -12,7 +12,7 @@ import utils.Sets;
 
 public class FactoryExampleEj6Test extends Test {
 
-	// TODO: Ejercicio 6.
+	// Ejercicio 6.
 	// Modifique el código anterior para que mida el tiempo que tarda en
 	// ejecutarse un programa para todas las combinaciones posibles de
 	// implementación de los tipos List y Set. Para ello utilice un par de for

@@ -12,7 +12,7 @@ import utils.Sets;
 
 public class FactoryExampleEj5Test extends Test {
 
-	// TODO: Ejercicio 5.
+	// Ejercicio 5.
 	// En este ejercicio se proporciona todo el código, simplemente se pide que
 	// lo ejecute cambiando el valor de las constantes y observe el resultado.
 
